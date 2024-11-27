@@ -13,6 +13,8 @@ watch(route, () => {
 </script>
 
 <template>
+  <h1>vgbhjn</h1>
+
   <div v-if="route.name == 'Admin'">
     <RouterView></RouterView>
   </div>
