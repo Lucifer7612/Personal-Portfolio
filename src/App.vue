@@ -1,8 +1,6 @@
 <script setup>
 import Home from "./components/Home.vue";
 import Contact from "./components/Contact.vue";
-import Projects from "./components/Projects.vue";
-
 import { useRoute } from "vue-router";
 import { ref, watch } from "vue";
 
@@ -13,14 +11,11 @@ watch(route, () => {
 </script>
 
 <template>
-  <h1>vgbhjn</h1>
-
   <div v-if="route.name == 'Admin'">
     <RouterView></RouterView>
   </div>
   <div class="" v-else>
     <Home />
-    <Projects />
     <Contact />
   </div>
 </template>

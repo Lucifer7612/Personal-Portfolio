@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Admin from "./components/Admin.vue";
-
 const routes = [
   {
     name: "Admin",

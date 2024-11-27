@@ -28,7 +28,7 @@
       /></label>
       <br />
       <br />
-      <label for="" class="flex justify-center items-center"
+      <label for="" class="flex items-center"
         >How can I help??:
         <textarea
           type="text"
@@ -36,7 +36,7 @@
           rows="4"
           cols="50"
           v-model="help"
-          class=""
+          class="text-black"
         ></textarea></label
       ><br />
       <br />
