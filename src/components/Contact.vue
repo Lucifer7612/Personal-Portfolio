@@ -138,7 +138,7 @@ const validateAndSubmit = async () => {
         help: help.value,
       });
       console.log(response.data);
-      alert("Form submitted successfully!");
+      // alert("Form submitted successfully!");
       // Reset fields after submission
       name.value = "";
       email.value = "";
