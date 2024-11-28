@@ -1,6 +1,6 @@
 <template>
   <div class="mt-12 mb-12">
-    <p class="text-center text-3xl mt-12 mb-12">My Skills</p>
+    <p class="text-4xl font-bold text-center mb-12">My Skills</p>
 
     <swiper
       class="mySwiper"

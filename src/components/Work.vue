@@ -1,5 +1,5 @@
 <template>
-  <p class="text-center text-3xl">{What do I do?}</p>
+  <p class="text-4xl font-bold text-center mb-12">{What do I do?}</p>
 
   <div class="flex justify-center items-center mt-5 mb-5">
     <div class="max-w-sm p-5 rounded-2xl backdrop-blur-xl">

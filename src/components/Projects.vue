@@ -33,7 +33,7 @@
         />
         <div class="p-4">
           <h3 class="text-2xl font-semibold mb-2">{{ project.title }}</h3>
-          <p class="text-white mb-4">{{ project.description }}</p>
+          <p class="text-white mb-4 line-clamp-2">{{ project.description }}</p>
           <div class="flex justify-between">
             <a
               :href="project.codeLink"
@@ -93,7 +93,8 @@ const projects = ref([
   },
   {
     title: "Attendance System",
-    description: "Description of project 3. This is a brief about the project.",
+    description:
+      "Description of project 3. This is a brief about the project.Gaata rahe majha dil tuhi majhi manzil..",
     image: "/a3.png",
     codeLink: "https://github.com/Nirav1110/Attandance_System.git",
     liveLink: "https://live-project-3.com",
